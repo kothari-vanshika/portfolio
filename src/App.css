@@ -1,0 +1,29 @@
+
+.shiny-text {
+    font-family: 'Montserrat';
+    position: relative;
+    display: inline-block;
+    color: #fff; /* Base text color */
+    text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8), /* Light white shadow */
+    0 0 20px rgba(79,76,247, 0.8),   /* Magenta shadow */
+    0 0 25px rgba(79, 76,247, 0.8);   /* Larger magenta shadow */
+  transition: color 0.3s, text-shadow 0.3s;
+  padding:10px;
+  }
+  .shiny-text:hover{
+    color: #fff; /* Base text color */
+    text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8), /* Light white shadow */
+    0 0 25px rgba(202, 42, 176, 0.8),   /* Magenta shadow */
+    0 0 30px rgba(202, 42, 176, 0.8);   /* Larger magenta shadow */
+  transition: color 0.3s, text-shadow 0.3s;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif; /* Default font for body */
+    background-image: url('../public/background.jpg');
+    overflow-y: auto; 
+  }
+.typing{
+  color:white
+}

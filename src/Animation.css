@@ -1,0 +1,14 @@
+/* Animations.css */
+@keyframes moveUpDownAnimation {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+/* Animations.css */
+.moving-image {
+    animation: moveUpDownAnimation 2s linear infinite;
+  }
+    
